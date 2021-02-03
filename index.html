@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script src="main.js"></script>
+    </head>
+    <ul class="menu">
+        <li class="link"><a href="#home">HOME</a></li>
+        <li class="link"><a href="#about">ABOUT</a></li>
+        <li class="link"><a href="#videos">VIDEOS</a></li>
+        <li class="link"><a href="#inspiration">MY INSPIRATION</a></li>
+        <li class="link"><a href="#location">LOCATION</a></li>
+        <li class="link"><a href="#contact">CONTACT</a></li>
+    </ul>
+    <br>
+    <section id="section1">
+        <p id="home">Home</p>
+        <div class="line"></div>
+        <img id="img1" src="Collage.png">
+        <div id="hobby">My Hobby is
+            <br>
+            Learning with Wildlife & Nature
+        </div>
+        <div class="line"></div>
+    </section>
+    <section id="section2">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="about">About</div>
+        <div class="line"></div>
+        <p id="bio1">
+            I love to go to new places. Every Sunday, I go to some natural places with my father. Whenever I get time I go out, walk a mile, take pics, and just enjoy the beauty of nature. We also make tea on chulah in rocky places. I also like gardening. I planted many trees in our garden during the lockdown period.
+        </p>
+        <br>
+        <br>
+        <br>
+    </section>
+    <section id="section3">
+        <p id="heading">Here is my favourite Person who loves nature very much!</p>
+        <div class="line"></div>
+        <br>
+        <p id="name">Sir David Attenborough</p>
+        <img id="david" src="sir%20david.jpg">
+        <br>
+        <br>
+        <button id="btn" onclick="showBio()">Explore more about him</button>
+        <p id="bio2"></p>
+    </section>
+    <p id="videos">Videos</p>
+    <div class="line"></div>
+    <iframe width="760" height="450" src="https://www.youtube.com/embed/64R2MYUt394" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <br>
+    <iframe width="760" height="450" src="https://www.youtube.com/embed/oQnDVqGIv4s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section id="section4">
+        <br>
+        <center>
+            <p id="inspiration">My inspiration</p>
+            <p id="click">Click on the images to read about...</p>
+            <br>
+            <span>
+                <img id="insp_1" onclick="text1() " src="david%20with%20eagle.jpg">
+            </span>
+            <p id="david_text"></p>
+            <span>
+                <img id="insp_2" onclick="text2()" src="ronaldo.jpg">
+            </span>
+            <p id="ronaldo_text"></p>
+            <br>
+        </center>
+    </section>
+    <section id="contact_and_map">
+        <p id="location">Location</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.459973636955!2d75.61281863674171!3d24.941814956401085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3965874ee85ca581%3A0xc2853c4a71677be!2sAnudeep%20Colony%2C%20Anupratap%20Colony%2C%20Sankhalon%20Ka%20Dhundha%2C%20Rajasthan%20323305!5e1!3m2!1sen!2sin!4v1612373755426!5m2!1sen!2sin" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <p id="contact">Contact</p>
+    <a href="mailto: rajanastro12@gmail.com?Subject=Hello, I am Rajan Joshi" id="myname">
+        <i class="fa fa-envelope">&nbsp;<span id="myname">rajanastro12@gmail.com</span></i>
+    </a>
+        </section>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(#24ffec, #0a8c81);
+    background-repeat: no-repeat;
+}
+
+#home {
+    font-size: 27px;
+}
+
+#img1 {
+    width: 350px;
+    height: 350px;
+    margin-left: 512px;
+    margin-right: 512px;
+}
+
+#hobby {
+    text-shadow: 0px 4px #ff91f8;
+    font-size: 29px;
+    color: brown;
+    font-weight: 900;
+}
+
+#about {
+    font-size: 29px;
+    color: dodgerblue;
+    font-weight: 900;
+}
+
+#bio1 {
+    font-size: 29px;
+    color: purple;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 55%;
+    word-spacing: 30px;
+    text-shadow: 0px 3px white;
+    z-index: 0;
+    position: fixed;
+}
+
+#section1 {
+    background: linear-gradient(#52f778 0, #e4f752 100%);
+    background-repeat: no-repeat;
+}
+
+.link {
+    position: ;
+    display: inline;
+    font-family: fantasy;
+    color: dodgerblue;
+    font-size: 26px;
+}
+
+.link:hover{
+    font-size: 27.8px;
+    
+}
+
+#section2 {
+    background: linear-gradient(to top, #66ffcc 0%, #ffff99 100%);
+}
+
+#heading {
+    font-size: 27px;
+}
+
+#david {
+    width: 230px;
+    border-radius: 50%;
+}
+
+#name {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 30px;
+}
+
+.line {
+    width: 100px;
+    height: 3.8px;
+    margin-left: 46%;
+    background-color: darkcyan;
+}
+
+#btn {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+}
+
+#bio2 {
+    margin-top: 50px;
+    font-size: 23.5px;
+    color: white;
+}
+
+#videos {
+    font-size: 29px;
+}
+
+#inspiration {
+    font-size: 29px;
+}
+
+#insp_1 {
+    width: 550px;
+    margin-right: 80px;
+}
+
+#insp_2 {
+    width: 550px;
+}
+
+#david_text {
+    font-size: 29px;
+    color: white;
+}
+
+#ronaldo_text {
+    font-size: 29px;
+    color: white;
+}
+
+#click {
+    color: grey;
+    font-size: 24px;
+}
+
+#section4 {
+    background: linear-gradient(#ffff66, #66ff66);
+}
+#location{
+    font-size: 29px;
+    color: white;
+}
+#contact{
+    font-size: 29px;
+    color: white;
+}
+#contact_and_map{
+    background-color:cornflowerblue;
+}
